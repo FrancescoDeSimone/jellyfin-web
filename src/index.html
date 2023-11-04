@@ -173,6 +173,11 @@
         <div class="splashLogo"></div>
     </div>
     <div class="mainDrawerHandle"></div>
-    <script plugin="Jellyscrub" version="1.0.0.0" src="/Trickplay/ClientScript"></script>
+    <script>
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = '/Trickplay/ClientScript';
+      document.body.appendChild(script);
+    </script>
 </body>
 </html>
